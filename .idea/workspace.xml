@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bead955-2531-4033-bec1-d0faeb296db4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e1/E1BooleanPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e1/E1BooleanPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e10/E10AirthmeticOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e10/E10AirthmeticOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e2/E2AgePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e2/E2AgePrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e3/E3CreatingVariableAndPrinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e3/E3CreatingVariableAndPrinting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e4/E4CreatingVariablesAndPrinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e4/E4CreatingVariablesAndPrinting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e5/E5CreatingVariablesAndPrinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e5/E5CreatingVariablesAndPrinting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e6/E6StringConcatenation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e6/E6StringConcatenation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e7/E7StringConcatenation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e7/E7StringConcatenation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e8/E8StringConcatenation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e8/E8StringConcatenation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e9/E9AirthmeticOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e9/E9AirthmeticOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e5creatingvariablesandprintingtest/E5CreatingVariablesAndPrintingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e5creatingvariablesandprintingtest/E5CreatingVariablesAndPrintingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,45 +30,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.E10AirthmeticOperations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E1BooleanPrinter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E2AgePrinter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E3CreatingVariableAndPrinting.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E4CreatingVariablesAndPrinting.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E5CreatingVariablesAndPrinting.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E6StringConcatenation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E7StringConcatenation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E8StringConcatenation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E9AirthmeticOperations.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.E10AirthmeticOperationsTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.E1BooleanPrinterTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.E2AgePrinterTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.E5CreatingVariablesAndPrintingTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.E5CreatingVariablesAndPrintingTest.testVariablePrinting.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.E6StringConcatenationTester.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.E7StringConcatenationTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Syntax/IdeaProjects/SDETB19JavaHomeWorks/src/test/java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.E9AirthmeticOperations.executor": "Run",
+    "JUnit.E1BooleanPrinterTest.executor": "Run",
+    "JUnit.E9AirthmeticOperationsTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Syntax/IdeaProjects/SDETB19JavaHomeWorks/src/test/java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Syntax\IdeaProjects\SDETB19JavaHomeWorks\src\test\java" />
       <recent name="C:\Users\Syntax\IdeaProjects\SDETB19JavaHomeWorks\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.E6StringConcatenationTester">
-    <configuration name="E5CreatingVariablesAndPrinting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.e5.E5CreatingVariablesAndPrinting" />
+  <component name="RunManager" selected="JUnit.E5CreatingVariablesAndPrintingTest">
+    <configuration name="E9AirthmeticOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.e9.E9AirthmeticOperations" />
       <module name="SDETB19JavaHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.e5.*" />
+          <option name="PATTERN" value="org.example.e9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,15 +62,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E7StringConcatenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.e7.E7StringConcatenation" />
+    <configuration name="E1BooleanPrinterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SDETB19JavaHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.e7.*" />
+          <option name="PATTERN" value="e1booleanprintertest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="e1booleanprintertest" />
+      <option name="MAIN_CLASS_NAME" value="e1booleanprintertest.E1BooleanPrinterTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,32 +92,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E5CreatingVariablesAndPrintingTest.testVariablePrinting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="E9AirthmeticOperationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SDETB19JavaHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="e5creatingvariablesandprintingtest.*" />
+          <option name="PATTERN" value="e9airthmeticoperationstest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="e5creatingvariablesandprintingtest" />
-      <option name="MAIN_CLASS_NAME" value="e5creatingvariablesandprintingtest.E5CreatingVariablesAndPrintingTest" />
-      <option name="METHOD_NAME" value="testVariablePrinting" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E6StringConcatenationTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SDETB19JavaHomeWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="e6stringconcatenationtester.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="e6stringconcatenationtester" />
-      <option name="MAIN_CLASS_NAME" value="e6stringconcatenationtester.E6StringConcatenationTester" />
+      <option name="PACKAGE_NAME" value="e9airthmeticoperationstest" />
+      <option name="MAIN_CLASS_NAME" value="e9airthmeticoperationstest.E9AirthmeticOperationsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,20 +109,12 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.E6StringConcatenationTester" />
-        <item itemvalue="Application.E5CreatingVariablesAndPrinting" />
-        <item itemvalue="Application.E7StringConcatenation" />
-        <item itemvalue="JUnit.E5CreatingVariablesAndPrintingTest.testVariablePrinting" />
         <item itemvalue="JUnit.E5CreatingVariablesAndPrintingTest" />
+        <item itemvalue="JUnit.E9AirthmeticOperationsTest" />
+        <item itemvalue="Application.E9AirthmeticOperations" />
+        <item itemvalue="JUnit.E1BooleanPrinterTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-15.0.2-corretto-15.0.2-4caba194b151-9bc2d75a" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
