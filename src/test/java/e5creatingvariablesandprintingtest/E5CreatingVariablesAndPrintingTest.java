@@ -12,11 +12,11 @@ import static org.junit.Assert.assertEquals;
 public class E5CreatingVariablesAndPrintingTest {
     private final ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
-        @Test
-        public void testVariablePrinting() {
+    @Test
+    public void testVariablePrinting() {
 
-            System.setOut(new PrintStream(outputStream));
-            E5CreatingVariablesAndPrinting.main(new String[]{});
+        System.setOut(new PrintStream(outputStream));
+        E5CreatingVariablesAndPrinting.main(new String[]{});
 /*
             // Create a String variable "name" and assign a value of "Chen" to it
             String name = "Chen";
@@ -34,17 +34,14 @@ public class E5CreatingVariablesAndPrintingTest {
             System.out.print(age);
             System.out.print(iq);
 */
-            System.setOut(originalOut);
-            String printedOutput = outputStream.toString().trim();
+        System.setOut(originalOut);
+        String printedOutput = outputStream.toString().trim();
 
-            // Define the expected output
-            String expectedOutput = "Chen\n5050";
+        // Define the expected output
+        String expectedOutput = "Chen"+ System.lineSeparator() + "5050";
 
-            // Compare the actual output with the expected output
-            assertEquals(expectedOutput, printedOutput);
-        }
+
+        // Compare the actual output with the expected output
+        assertEquals(expectedOutput, printedOutput);
     }
-
-
-
-
+}
