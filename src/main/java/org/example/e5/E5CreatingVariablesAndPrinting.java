@@ -5,7 +5,6 @@ public class E5CreatingVariablesAndPrinting {
         String name="chen";
         int age=50;
         int iq=age;
-
         System.out.println(name);
         System.out.print(age);
         System.out.println(iq);
