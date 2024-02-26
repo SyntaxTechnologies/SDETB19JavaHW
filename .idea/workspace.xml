@@ -31,23 +31,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.E5CreatingVariablesAndPrinting.executor": "Run",
-    "Application.E6StringConcatenation.executor": "Run",
-    "Application.E9AirthmeticOperations.executor": "Run",
-    "JUnit.E1BooleanPrinterTest.executor": "Run",
-    "JUnit.E5CreatingVariablesAndPrintingTest.executor": "Run",
-    "JUnit.E5CreatingVariablesAndPrintingTest.testVariablePrinting.executor": "Run",
-    "JUnit.E6StringConcatenationTester.executor": "Run",
-    "JUnit.E9AirthmeticOperationsTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Syntax/IdeaProjects/SDETB19JavaHomeWorks/src/test/java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.E5CreatingVariablesAndPrinting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.E6StringConcatenation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.E9AirthmeticOperations.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.E1BooleanPrinterTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.E5CreatingVariablesAndPrintingTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.E5CreatingVariablesAndPrintingTest.testVariablePrinting.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.E6StringConcatenationTester.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.E9AirthmeticOperationsTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Syntax/IdeaProjects/SDETB19JavaHomeWorks/src/test/java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Syntax\IdeaProjects\SDETB19JavaHomeWorks\src\test\java" />
@@ -169,7 +169,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708718898201</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first 5 hw solved">
+      <option name="closed" value="true" />
+      <created>1708955867418</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708955867418</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first 5 hw solved">
+      <option name="closed" value="true" />
+      <created>1708955978549</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708955978549</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
