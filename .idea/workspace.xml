@@ -5,41 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bead955-2531-4033-bec1-d0faeb296db4" name="Changes" comment="first 5 hw solved">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e12/E12AirthmeticOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e12/Instructions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e13/E13AirthmeticOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e13/Instructions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e14/E14AirthmeticOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e14/Instructions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e15/E15AirthmeticOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e15/Instructions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e16/E16AirthmeticOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e16/Instructions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e17/E17AirthmeticOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e17/Instructions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e18/E18TypeCasting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e18/Instructions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e19/E19TypeCasting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e19/Instructions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e20/E20ScannerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e20/Instructions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e21/E21ScannerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e21/Instructions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e22/E22ScannerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e22/Instructions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e12Test/E12AirthmeticOperationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e13Test/E13AirthmeticOperationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e14Test/E14AirthmeticOperationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e15Test/E15AirthmeticOperationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e16Test/E16AirthmeticOperationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e17Test/E17AirthmeticOperationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e18Test/E18TypeCastingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e19Test/E19TypeCastingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e20Test/E20ScannerClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e21Test/E21ScannerClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e22Test/E22ScannerClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e10/E10AirthmeticOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e10/E10AirthmeticOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
