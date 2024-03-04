@@ -4,7 +4,7 @@ public class E8StringConcatenation {
     public static void main(String[] args) {
         String n="syntaxtechs.";
         String d="com";
-        System.out.println(n+d);
+        System.out.print(n+d);
 
     }
 }

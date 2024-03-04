@@ -2,17 +2,13 @@ package org.example.e11;
 
 public class E11AirthmeticOperations {
     public static void main(String[] args) {
-        int num1 = 3;
-        int num2 = 7;
-        int num3 = 5;
-        int num4 = 1;
 
-        //start coding here
+        int width = 5;
+        int height = 8;
+        int perimeter = 2*(width+height);
+        int area = width*height;
 
-        int addNum=num1+num2;
-        int divNum=addNum/num3;
-        int subNum=divNum-num4;
+        System.out.print("The perimeter of a rectangle with width" +" " + width +" "+ "and height" +" " + height + " "+ "is equals to" +" " + perimeter +" "+ "and the area equals to" +" "+ area);
 
-        System.out.println("The result of arithmetic operations is equal to "+" "+subNum);
     }
 }

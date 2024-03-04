@@ -4,12 +4,15 @@ import java.util.Scanner;
 
 public class E20ScannerClass {
     public static void main(String[] args) {
-        Scanner user = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
         System.out.println("Please Enter First Name");
-        String firstName = user.nextLine();
+        String firstName = scan.nextLine();
+
         System.out.println("Please Enter Last Name");
-        String lastName = user.nextLine();
-        System.out.print(firstName + " " + lastName);
+        String lastName =scan.nextLine();
+
+        System.out.print(firstName +" "+ lastName);
+
     }
 }
