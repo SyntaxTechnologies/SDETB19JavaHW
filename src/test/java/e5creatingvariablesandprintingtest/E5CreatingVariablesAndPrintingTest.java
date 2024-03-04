@@ -1,47 +1,35 @@
 package e5creatingvariablesandprintingtest;
 
 import org.example.e5.E5CreatingVariablesAndPrinting;
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
-
+import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
+import java.io.InputStream;
 import java.io.PrintStream;
-
 import static org.junit.Assert.assertEquals;
 
 
 public class E5CreatingVariablesAndPrintingTest {
-    private final ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
-    @Test
-    public void testVariablePrinting() {
 
-        System.setOut(new PrintStream(outputStream));
-        E5CreatingVariablesAndPrinting.main(new String[]{});
-/*
-            // Create a String variable "name" and assign a value of "Chen" to it
-            String name = "Chen";
+    @Before
+    public void setUpStreams() {
+        System.setOut(new PrintStream(outContent));
+    }
 
-            // Create an integer variable "age" and assign a value of 50 to it
-            int age = 50;
-
-            // Create an integer variable "iq" and assign the value of age to it
-            int iq = age;
-
-            // Print the value of "name"
-            System.out.println(name);
-
-            // Print the value of "age" and the value of "iq" on the same line
-            System.out.print(age);
-            System.out.print(iq);
-*/
+    @After
+    public void restoreStreams() {
         System.setOut(originalOut);
-        String printedOutput = outputStream.toString().trim();
+    }
 
-        // Define the expected output
-        String expectedOutput = "Chen"+ System.lineSeparator() + "5050";
-
-
-        // Compare the actual output with the expected output
-        assertEquals(expectedOutput, printedOutput);
+    @Test
+    public void testNameAgeIq() {
+        E5CreatingVariablesAndPrinting.main(new String[]{});
+        String expectedOutput = "Chen" + System.lineSeparator() +
+                "5050";
+        assertEquals(expectedOutput, outContent.toString());
     }
 }

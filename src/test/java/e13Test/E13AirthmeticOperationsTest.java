@@ -28,7 +28,7 @@ public class E13AirthmeticOperationsTest {
         E13AirthmeticOperations.main(new String[]{});
 
         // Define the expected output
-        String expectedOutput = "The magic number is 3!";
+        String expectedOutput = "The magic number is 3!"+ System.lineSeparator();;
         String failureMessage ="Math Magic\n" +
                 "In this project, you will become a magician and write a small program that performs a mathematical magic trick! It will involve performing arithmetic operations on an integer that you created.\n" +
                 "For you to do:\n" +

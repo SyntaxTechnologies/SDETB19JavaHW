@@ -28,7 +28,7 @@ public class E15AirthmeticOperationsTest {
         E15AirthmeticOperations.main(new String[]{});
 
         // Define the expected output
-        String expectedOutput = "0";
+        String expectedOutput = "0"+ System.lineSeparator();
 
         String failureMessage ="For you to do:\n" +
                 "Print the results of 14 mod 2.\n" +

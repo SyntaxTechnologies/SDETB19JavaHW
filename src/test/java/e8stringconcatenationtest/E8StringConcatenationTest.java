@@ -31,7 +31,7 @@ public class E8StringConcatenationTest {
         //String concatenatedString = str1 + str2;
 
         // Define the expected output
-        String expectedOutput = "syntaxtechs.com";
+        String expectedOutput = "syntaxtechs.com" +System.lineSeparator();
         String failureMessage ="Create 2 Strings\n" +
                 "Use the concatenation operation to make the following output\n" +
                 "**Output:**\n" +

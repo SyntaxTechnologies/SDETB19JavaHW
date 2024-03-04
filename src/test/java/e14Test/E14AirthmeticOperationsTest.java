@@ -28,7 +28,7 @@ public class E14AirthmeticOperationsTest {
         E14AirthmeticOperations.main(new String[]{});
 
         // Define the expected output
-        String expectedOutput = "14 modded by 6 is 2";
+        String expectedOutput = "14 modded by 6 is 2"+ System.lineSeparator()+  "14 modded by 6 is 2"+System.lineSeparator();
 
         String failureMessage ="- Add the values of num1 and num2 and then subtract num3 from the result and store it in result1 variable\n" +
                 "- Multiply num4 and num5 together and then divide num6 from the result and store it in result2 variable\n" +

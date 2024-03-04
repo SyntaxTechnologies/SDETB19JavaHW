@@ -28,7 +28,7 @@ public class E17AirthmeticOperationsTest {
         E17AirthmeticOperations.main(new String[]{});
 
         // Define the expected output
-        String expectedOutput = "-1";
+        String expectedOutput = "-1"+ System.lineSeparator();;
 
         String failureMessage ="Print result of  -21 mod 4?\n" +
                 "**Expected Output:**\n" +

@@ -30,7 +30,7 @@ public class E18TypeCastingTest {
         // Define the expected output
 
         //long expectedOutput = 500;
-        String expectedOutput="500";
+        String expectedOutput="500"+ System.lineSeparator();;
 
         String failureMessage ="Write a program to convert double 500.4444 into long.\n" +
                 "Expected Output:\n" +

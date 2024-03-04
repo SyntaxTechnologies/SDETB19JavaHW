@@ -28,7 +28,7 @@ public class E16AirthmeticOperationsTest {
         E16AirthmeticOperations.main(new String[]{});
 
         // Define the expected output
-        String expectedOutput = "1";
+        String expectedOutput = "1"+ System.lineSeparator();
 
         String failureMessage ="For you to do:\n" +
                 "Print the result of 29 mod 4\n" +

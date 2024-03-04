@@ -27,7 +27,7 @@ public class E9AirthmeticOperationsTest {
     public void testFloatMultiplication() {
         E9AirthmeticOperations.main(new String[]{});
         // Define the expected output
-        String expectedOutput = "The multiplication of 8.2 with itself is equal to 67.24";
+        String expectedOutput = "The multiplication of 8.2 with itself is equal to 67.24"+System.lineSeparator();;
         String failureMessage ="Create a float data type variable and assign a value of  8.2 to it\n" +
                 "Multiply the value by itself and print the result.\n" +
                 "**Output:**\n" +

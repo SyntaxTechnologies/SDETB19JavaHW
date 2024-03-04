@@ -28,7 +28,7 @@ public class E19TypeCastingTest {
 
         E19TypeCasting.main(new String[]{});
         // Define the expected output
-        String expectedOutput = "100";
+        String expectedOutput = "100"+ System.lineSeparator();
 
         String failureMessage ="Write a program to convert double 100.50 into int type\n" +
                 "Expected Output:\n" +

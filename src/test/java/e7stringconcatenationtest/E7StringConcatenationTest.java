@@ -35,7 +35,7 @@ public class E7StringConcatenationTest {
         //String concatenatedString = language + " is the #1 " + description;
 
         // Define the expected output
-        String expectedOutput = "Java is the #1 programming language";
+        String expectedOutput = "Java is the #1 programming language"+ System.lineSeparator();
 
         String failureMessage ="Declare a variable and assign the value of \"Java\" to it.\n" +
                 "Declare a variable and assign the value of \"programming language\" to it.\n" +

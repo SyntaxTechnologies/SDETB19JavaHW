@@ -29,15 +29,15 @@ public class E12AirthmeticOperationsTest {
         E12AirthmeticOperations.main(new String[]{});
 
         // Define the expected output
-        String expectedOutput = "The result of arithmetic operations is equal to "+" "+1;
+        String expectedOutput = "The result of arithmetic operations is equal to "+" "+1+ System.lineSeparator();;
 
         String failureMessage ="For you to do:\n" +
                 "Add num1 and num2\n" +
                 "Divide the result by num3\n" +
                 "Subtract num4 from that result\n" +
                 "Instructions: Please use variables to assign the result of arithmetic operations\n" +
-                "Output:\n" +
-                "The result of arithmetic operations is equal to ___";
+                "Output:" +
+                "The result of arithmetic operations is equal to ___"+ System.lineSeparator();;
 
         // Compare the concatenated string with the expected output
         assertEquals(failureMessage,expectedOutput, outputStream.toString());
