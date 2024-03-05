@@ -1,0 +1,272 @@
+Index: src/main/java/org/example/e13/E13AirthmeticOperations.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.e13;\r\n\r\npublic class E13AirthmeticOperations {\r\n    public static void main(String[] args) {\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/e13/E13AirthmeticOperations.java b/src/main/java/org/example/e13/E13AirthmeticOperations.java
+--- a/src/main/java/org/example/e13/E13AirthmeticOperations.java	(revision 1050a215e06a7cada448af0b91aa376a4a61ea91)
++++ b/src/main/java/org/example/e13/E13AirthmeticOperations.java	(date 1709498893441)
+@@ -1,7 +1,21 @@
++
++
+ package org.example.e13;
+ 
+ public class E13AirthmeticOperations {
+     public static void main(String[] args) {
+ 
++        int myNumber = 5;
++        int stepONe = myNumber* myNumber;
++        int stepTwo = stepONe + myNumber;
++        int stepThree = stepTwo/myNumber;
++        int step4 = stepThree +17;
++        int step5 = step4 - myNumber;
++        int ste6 = step5/6;
++        System.out.println("The magic number is " + ste6);
++
++
++
++
+     }
+ }
+Index: src/main/java/org/example/e14/E14AirthmeticOperations.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.e14;\r\n\r\npublic class E14AirthmeticOperations {\r\n    public static void main(String[] args) {\r\n        int num1 = 5;\r\n        int num2 = 4;\r\n        int num3 = 3;\r\n\r\n        int num4 = 7;\r\n        int num5 = 10;\r\n        int num6 = 5;\r\n\r\n        //start coding here\r\n\r\n    }\r\n}\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/e14/E14AirthmeticOperations.java b/src/main/java/org/example/e14/E14AirthmeticOperations.java
+--- a/src/main/java/org/example/e14/E14AirthmeticOperations.java	(revision 1050a215e06a7cada448af0b91aa376a4a61ea91)
++++ b/src/main/java/org/example/e14/E14AirthmeticOperations.java	(date 1709498893469)
+@@ -11,6 +11,13 @@
+         int num6 = 5;
+ 
+         //start coding here
++        int result1= num1 + num2 - num3;
++        int result2 = (num4 * num5)/6;
++        System.out.println(result2 +" modded by " + result1 + " is ");
++
++
++        ;
++
+ 
+     }
+ }
+Index: src/main/java/org/example/e20/E20ScannerClass.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.e20;\r\n\r\nimport java.util.Scanner;\r\n\r\npublic class E20ScannerClass {\r\n    public static void main(String[] args) {\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/e20/E20ScannerClass.java b/src/main/java/org/example/e20/E20ScannerClass.java
+--- a/src/main/java/org/example/e20/E20ScannerClass.java	(revision 1050a215e06a7cada448af0b91aa376a4a61ea91)
++++ b/src/main/java/org/example/e20/E20ScannerClass.java	(date 1709648826793)
+@@ -5,5 +5,13 @@
+ public class E20ScannerClass {
+     public static void main(String[] args) {
+ 
++        Scanner input = new Scanner(System.in);
++        System.out.println("Please enter your first name");
++        String firstname = input.next();
++        System.out.println("Please enter your last name");
++        String Lastname = input.next();
++        System.out.println(firstname + " "+ Lastname);
++
++
+     }
+ }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"7bead955-2531-4033-bec1-d0faeb296db4\" name=\"Changes\" comment=\"first 5 hw solved\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2cYGDFXr0ew2V67QcFWIsfBiFdP\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Application.E9AirthmeticOperations.executor&quot;: &quot;Run&quot;,\r\n    &quot;JUnit.E10AirthmeticOperationsTest.executor&quot;: &quot;Run&quot;,\r\n    &quot;JUnit.E1BooleanPrinterTest.executor&quot;: &quot;Run&quot;,\r\n    &quot;JUnit.E9AirthmeticOperationsTest.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/Syntax/IdeaProjects/SDETB19JavaHomeWorks/src/test/java&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Syntax\\IdeaProjects\\SDETB19JavaHomeWorks\\src\\test\\java\" />\r\n      <recent name=\"C:\\Users\\Syntax\\IdeaProjects\\SDETB19JavaHomeWorks\\src\\main\\java\\org\\example\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"JUnit.E10AirthmeticOperationsTest\">\r\n    <configuration name=\"E9AirthmeticOperations\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.e9.E9AirthmeticOperations\" />\r\n      <module name=\"SDETB19JavaHomeWorks\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"org.example.e9.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"E10AirthmeticOperationsTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"SDETB19JavaHomeWorks\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"e10airthmeticoperationstest.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"e10airthmeticoperationstest\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"e10airthmeticoperationstest.E10AirthmeticOperationsTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"E1BooleanPrinterTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"SDETB19JavaHomeWorks\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"e1booleanprintertest.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"e1booleanprintertest\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"e1booleanprintertest.E1BooleanPrinterTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"E5CreatingVariablesAndPrintingTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"SDETB19JavaHomeWorks\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"e5creatingvariablesandprintingtest.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"e5creatingvariablesandprintingtest\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"e5creatingvariablesandprintingtest.E5CreatingVariablesAndPrintingTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"E9AirthmeticOperationsTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"SDETB19JavaHomeWorks\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"e9airthmeticoperationstest.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"e9airthmeticoperationstest\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"e9airthmeticoperationstest.E9AirthmeticOperationsTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.E10AirthmeticOperationsTest\" />\r\n        <item itemvalue=\"JUnit.E5CreatingVariablesAndPrintingTest\" />\r\n        <item itemvalue=\"JUnit.E9AirthmeticOperationsTest\" />\r\n        <item itemvalue=\"Application.E9AirthmeticOperations\" />\r\n        <item itemvalue=\"JUnit.E1BooleanPrinterTest\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"7bead955-2531-4033-bec1-d0faeb296db4\" name=\"Changes\" comment=\"\" />\r\n      <created>1708280977036</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1708280977036</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 1050a215e06a7cada448af0b91aa376a4a61ea91)
++++ b/.idea/workspace.xml	(date 1709648684958)
+@@ -4,9 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="7bead955-2531-4033-bec1-d0faeb296db4" name="Changes" comment="first 5 hw solved">
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++    <list default="true" id="7bead955-2531-4033-bec1-d0faeb296db4" name="Changes" comment="My first commit">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e13/E13AirthmeticOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e13/E13AirthmeticOperations.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e14/E14AirthmeticOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e14/E14AirthmeticOperations.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -15,6 +16,20 @@
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;Minenhle2022&quot;
++  }
++}</component>
++  <component name="GithubPullRequestsUISettings">
++    <option name="selectedUrlAndAccountId">
++      <UrlAndAccount>
++        <option name="accountId" value="625c2a76-e962-4354-bde3-b1fed02008dd" />
++        <option name="url" value="https://github.com/SyntaxTechnologies/SDETB19JavaHW" />
++      </UrlAndAccount>
++    </option>
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+@@ -32,6 +47,8 @@
+   </component>
+   <component name="PropertiesComponent">{
+   &quot;keyToString&quot;: {
++    &quot;Application.E13AirthmeticOperations.executor&quot;: &quot;Run&quot;,
++    &quot;Application.E14AirthmeticOperations.executor&quot;: &quot;Run&quot;,
+     &quot;Application.E9AirthmeticOperations.executor&quot;: &quot;Run&quot;,
+     &quot;JUnit.E10AirthmeticOperationsTest.executor&quot;: &quot;Run&quot;,
+     &quot;JUnit.E1BooleanPrinterTest.executor&quot;: &quot;Run&quot;,
+@@ -40,7 +57,7 @@
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Syntax/IdeaProjects/SDETB19JavaHomeWorks/src/test/java&quot;
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/R5621208/IdeaProjects/Java&quot;
+   }
+ }</component>
+   <component name="RecentsManager">
+@@ -49,13 +66,13 @@
+       <recent name="C:\Users\Syntax\IdeaProjects\SDETB19JavaHomeWorks\src\main\java\org\example" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="JUnit.E10AirthmeticOperationsTest">
+-    <configuration name="E9AirthmeticOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="org.example.e9.E9AirthmeticOperations" />
++  <component name="RunManager" selected="Application.E20ScannerClass">
++    <configuration name="E13AirthmeticOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="org.example.e13.E13AirthmeticOperations" />
+       <module name="SDETB19JavaHomeWorks" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="org.example.e9.*" />
++          <option name="PATTERN" value="org.example.e13.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -63,61 +80,57 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="E10AirthmeticOperationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++    <configuration name="E14AirthmeticOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="org.example.e14.E14AirthmeticOperations" />
+       <module name="SDETB19JavaHomeWorks" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="e10airthmeticoperationstest.*" />
++          <option name="PATTERN" value="org.example.e14.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="e10airthmeticoperationstest" />
+-      <option name="MAIN_CLASS_NAME" value="e10airthmeticoperationstest.E10AirthmeticOperationsTest" />
+-      <option name="TEST_OBJECT" value="class" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="E1BooleanPrinterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++    <configuration name="E20ScannerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="org.example.e20.E20ScannerClass" />
+       <module name="SDETB19JavaHomeWorks" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="e1booleanprintertest.*" />
++          <option name="PATTERN" value="org.example.e20.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="e1booleanprintertest" />
+-      <option name="MAIN_CLASS_NAME" value="e1booleanprintertest.E1BooleanPrinterTest" />
+-      <option name="TEST_OBJECT" value="class" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="E5CreatingVariablesAndPrintingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++    <configuration name="E10AirthmeticOperationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="SDETB19JavaHomeWorks" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="e5creatingvariablesandprintingtest.*" />
++          <option name="PATTERN" value="e10airthmeticoperationstest.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="e5creatingvariablesandprintingtest" />
+-      <option name="MAIN_CLASS_NAME" value="e5creatingvariablesandprintingtest.E5CreatingVariablesAndPrintingTest" />
++      <option name="PACKAGE_NAME" value="e10airthmeticoperationstest" />
++      <option name="MAIN_CLASS_NAME" value="e10airthmeticoperationstest.E10AirthmeticOperationsTest" />
+       <option name="TEST_OBJECT" value="class" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="E9AirthmeticOperationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++    <configuration name="E5CreatingVariablesAndPrintingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="SDETB19JavaHomeWorks" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="e9airthmeticoperationstest.*" />
++          <option name="PATTERN" value="e5creatingvariablesandprintingtest.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="e9airthmeticoperationstest" />
+-      <option name="MAIN_CLASS_NAME" value="e9airthmeticoperationstest.E9AirthmeticOperationsTest" />
++      <option name="PACKAGE_NAME" value="e5creatingvariablesandprintingtest" />
++      <option name="MAIN_CLASS_NAME" value="e5creatingvariablesandprintingtest.E5CreatingVariablesAndPrintingTest" />
+       <option name="TEST_OBJECT" value="class" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+@@ -125,11 +138,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.E20ScannerClass" />
++        <item itemvalue="Application.E14AirthmeticOperations" />
++        <item itemvalue="Application.E13AirthmeticOperations" />
+         <item itemvalue="JUnit.E10AirthmeticOperationsTest" />
+         <item itemvalue="JUnit.E5CreatingVariablesAndPrintingTest" />
+-        <item itemvalue="JUnit.E9AirthmeticOperationsTest" />
+-        <item itemvalue="Application.E9AirthmeticOperations" />
+-        <item itemvalue="JUnit.E1BooleanPrinterTest" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -142,6 +155,19 @@
+       <option name="presentableId" value="Default" />
+       <updated>1708280977036</updated>
+     </task>
++    <task id="LOCAL-00001" summary="My first commit">
++      <option name="closed" value="true" />
++      <created>1709287896289</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1709287896290</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="My first commit" />
++    <option name="LAST_COMMIT_MESSAGE" value="My first commit" />
++  </component>
+ </project>
+\ No newline at end of file
