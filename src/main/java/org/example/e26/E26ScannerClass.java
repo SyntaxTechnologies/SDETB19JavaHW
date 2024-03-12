@@ -10,5 +10,11 @@ public class E26ScannerClass {
         String name = inp.nextLine();
         //DO NOT CHANGE ABOVE CODE!  Write your code below
 
+        if(name.equals("Chen")){
+            System.out.println("teacher");
+        }else {
+            System.out.println("student");
+        }
+
     }
 }

@@ -1,6 +1,8 @@
 **For you to do:**
 
-Write a program to input number "Input a number between 1-12" and when you input a number it should display the month using Scanner and Switch statement.
+Write a program to input number "Input a number between 1-12"
+and when you input a number it should display the month
+using Scanner and Switch statement.
 
 case: 1 will display January
 

@@ -2,7 +2,9 @@
 
 Write a program using the switch statement
 
-Let us consider there are three students in the class with roll number  starting from (101 to 103) if any number other than 101-103 are present display "Not found Student name: in Class"
+Let us consider there are three students in the class with roll number 
+starting from (101 to 103) if any number other than 101-103 are present
+display "Not found Student name: in Class"
 
 ```
 First Output: "Enter the roll number of the Child"

@@ -6,7 +6,7 @@ public class E18TypeCasting {
         // Write a program to convert double 500.4444 into long.
         double val=500.4444;
         long value=(long)val;
-        System.out.print(value);
+        System.out.println(value);
 
     }
 }

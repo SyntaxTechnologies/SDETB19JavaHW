@@ -6,7 +6,7 @@ public class E19TypeCasting {
         //Write a program to convert double 100.50 into int type
         double val=100.50;
         int value=(int)val;
-        System.out.print(value);
+        System.out.println(value);
 
     }
 }
