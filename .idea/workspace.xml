@@ -4,18 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bead955-2531-4033-bec1-d0faeb296db4" name="Changes" comment="My first commit">
+    <list default="true" id="7bead955-2531-4033-bec1-d0faeb296db4" name="Changes" comment="first 5 hw solved">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e12/E12AirthmeticOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e12/Instructions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e13/E13AirthmeticOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e13/Instructions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e14/E14AirthmeticOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e14/Instructions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e15/E15AirthmeticOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e15/Instructions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e16/E16AirthmeticOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e16/Instructions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e17/E17AirthmeticOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e17/Instructions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e18/E18TypeCasting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e18/Instructions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e19/E19TypeCasting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e19/Instructions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e20/E20ScannerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e20/Instructions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e21/E21ScannerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e21/Instructions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e22/E22ScannerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e22/Instructions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e12Test/E12AirthmeticOperationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e13Test/E13AirthmeticOperationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e14Test/E14AirthmeticOperationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e15Test/E15AirthmeticOperationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e16Test/E16AirthmeticOperationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e17Test/E17AirthmeticOperationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e18Test/E18TypeCastingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e19Test/E19TypeCastingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e20Test/E20ScannerClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e21Test/E21ScannerClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e22Test/E22ScannerClassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e13/E13AirthmeticOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e13/E13AirthmeticOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e14/E14AirthmeticOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e14/E14AirthmeticOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e20/E20ScannerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e20/E20ScannerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e21/E21ScannerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e21/E21ScannerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e22/E22ScannerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e22/E22ScannerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e24/E24ScannerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e24/E24ScannerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e25/E25ScannerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e25/E25ScannerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e27/E27ScannerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e27/E27ScannerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e30/E30ScannerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e30/E30ScannerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e31/E31NestedIfAndScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e31/E31NestedIfAndScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e10/E10AirthmeticOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e10/E10AirthmeticOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,20 +48,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Minenhle2022&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="625c2a76-e962-4354-bde3-b1fed02008dd" />
-        <option name="url" value="https://github.com/SyntaxTechnologies/SDETB19JavaHW" />
-      </UrlAndAccount>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,41 +63,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.E13AirthmeticOperations.executor": "Run",
-    "Application.E14AirthmeticOperations.executor": "Run",
-    "Application.E20ScannerClass.executor": "Run",
-    "Application.E21ScannerClass.executor": "Run",
-    "Application.E22ScannerClass.executor": "Run",
-    "Application.E24ScannerClass.executor": "Run",
-    "Application.E25ScannerClass.executor": "Run",
-    "Application.E27ScannerClass.executor": "Run",
-    "Application.E30ScannerClass.executor": "Run",
-    "Application.E9AirthmeticOperations.executor": "Run",
-    "JUnit.E10AirthmeticOperationsTest.executor": "Run",
-    "JUnit.E1BooleanPrinterTest.executor": "Run",
-    "JUnit.E9AirthmeticOperationsTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/R5621208/IdeaProjects/Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.E9AirthmeticOperations.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.E10AirthmeticOperationsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.E1BooleanPrinterTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.E9AirthmeticOperationsTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Syntax/IdeaProjects/SDETB19JavaHomeWorks/src/test/java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Syntax\IdeaProjects\SDETB19JavaHomeWorks\src\test\java" />
       <recent name="C:\Users\Syntax\IdeaProjects\SDETB19JavaHomeWorks\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.E30ScannerClass">
-    <configuration name="E22ScannerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.e22.E22ScannerClass" />
+  <component name="RunManager" selected="JUnit.E10AirthmeticOperationsTest">
+    <configuration name="E9AirthmeticOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.e9.E9AirthmeticOperations" />
       <module name="SDETB19JavaHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.e22.*" />
+          <option name="PATTERN" value="org.example.e9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,65 +96,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E24ScannerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.e24.E24ScannerClass" />
+    <configuration name="E10AirthmeticOperationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SDETB19JavaHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.e24.*" />
+          <option name="PATTERN" value="e10airthmeticoperationstest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="e10airthmeticoperationstest" />
+      <option name="MAIN_CLASS_NAME" value="e10airthmeticoperationstest.E10AirthmeticOperationsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E25ScannerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.e25.E25ScannerClass" />
+    <configuration name="E1BooleanPrinterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SDETB19JavaHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.e25.*" />
+          <option name="PATTERN" value="e1booleanprintertest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="e1booleanprintertest" />
+      <option name="MAIN_CLASS_NAME" value="e1booleanprintertest.E1BooleanPrinterTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E27ScannerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.e27.E27ScannerClass" />
+    <configuration name="E5CreatingVariablesAndPrintingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SDETB19JavaHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.e27.*" />
+          <option name="PATTERN" value="e5creatingvariablesandprintingtest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="e5creatingvariablesandprintingtest" />
+      <option name="MAIN_CLASS_NAME" value="e5creatingvariablesandprintingtest.E5CreatingVariablesAndPrintingTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E30ScannerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.e30.E30ScannerClass" />
+    <configuration name="E9AirthmeticOperationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SDETB19JavaHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.e30.*" />
+          <option name="PATTERN" value="e9airthmeticoperationstest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="e9airthmeticoperationstest" />
+      <option name="MAIN_CLASS_NAME" value="e9airthmeticoperationstest.E9AirthmeticOperationsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.E30ScannerClass" />
-        <item itemvalue="Application.E27ScannerClass" />
-        <item itemvalue="Application.E25ScannerClass" />
-        <item itemvalue="Application.E24ScannerClass" />
-        <item itemvalue="Application.E22ScannerClass" />
+        <item itemvalue="JUnit.E10AirthmeticOperationsTest" />
+        <item itemvalue="JUnit.E5CreatingVariablesAndPrintingTest" />
+        <item itemvalue="JUnit.E9AirthmeticOperationsTest" />
+        <item itemvalue="Application.E9AirthmeticOperations" />
+        <item itemvalue="JUnit.E1BooleanPrinterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -166,19 +175,6 @@
       <option name="presentableId" value="Default" />
       <updated>1708280977036</updated>
     </task>
-    <task id="LOCAL-00001" summary="My first commit">
-      <option name="closed" value="true" />
-      <created>1709287896289</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1709287896290</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="My first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="My first commit" />
   </component>
 </project>
