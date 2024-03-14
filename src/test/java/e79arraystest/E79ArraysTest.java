@@ -1,6 +1,7 @@
 package e79arraystest;
 import static org.junit.Assert.*;
 
+import org.example.e78.E78Arrays;
 import org.example.e79.E79Arrays;
 import org.junit.*;
 
@@ -24,9 +25,7 @@ public class E79ArraysTest {
 
     @Test
     public void testRowSums() {
-        int[][] inputArray = {{1, 1, 2}, {3, 1, 2}, {3, 5, 3}, {0, 1, 2}};
-        E79Arrays.main(inputArray); // Replace with your actual method call
-
+        E79Arrays.main(new String[]{});
         String expectedOutput = "4" + System.lineSeparator() +
                 "6" + System.lineSeparator() +
                 "11" + System.lineSeparator() +

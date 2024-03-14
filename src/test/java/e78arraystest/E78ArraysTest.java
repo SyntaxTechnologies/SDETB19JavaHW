@@ -1,6 +1,7 @@
 package e78arraystest;
 import static org.junit.Assert.*;
 
+import org.example.e77.E77Arrays;
 import org.example.e78.E78Arrays;
 import org.junit.*;
 
@@ -24,9 +25,7 @@ public class E78ArraysTest {
 
     @Test
     public void testPrintSumOf2DArray() {
-        int[][] inputArray = {{-1, -2, -3}, {-1, -2, -3}}; // Example array
-        E78Arrays.main(inputArray); // Replace with your actual method call
-
+        E78Arrays.main(new String[]{});
         String expectedOutput = "-9" + System.lineSeparator();
         String failureMessage = "The output does not match the expected sum of all elements in the 2D array.\n" +
                 "Please ensure that your program correctly calculates and prints the sum.\n";
