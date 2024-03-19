@@ -11,6 +11,13 @@ public class E14AirthmeticOperations {
         int num6 = 5;
 
         //start coding here
+        int result1= num1 + num2 - num3;
+        int result2 = (num4 * num5)/6;
+        System.out.println(result2 +" modded by " + result1 + " is ");
+
+
+        ;
+
 
     }
 }

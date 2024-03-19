@@ -8,6 +8,13 @@ public class E25ScannerClass {
         System.out.println("In:");
         int num = inp.nextInt();
         //DO NOT CHANGE ABOVE CODE!  Write your code below
+        if (num>0){
+            System.out.println(num+ " is positive");
+        }else if (num <0){
+            System.out.println(num+ " is negative");
+        }else {
+            System.out.println("Entered number is equals to " +num);
+        }
 
     }
 }
