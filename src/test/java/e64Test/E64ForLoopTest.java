@@ -13,49 +13,47 @@ import java.io.PrintStream;
 import static org.junit.Assert.assertEquals;
 
 public class E64ForLoopTest {
-    private final ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
+    private final InputStream originalIn = System.in;
 
     @Before
     public void setUpStreams() {
-        System.setOut(new PrintStream(outputStream));
+        System.setOut(new PrintStream(outContent));
     }
 
     @After
     public void restoreStreams() {
         System.setOut(originalOut);
+        System.setIn(originalIn);
     }
+
+    private void provideInput(String data) {
+        System.setIn(new ByteArrayInputStream(data.getBytes()));
+    }
+
     @Test
-    public void testNumberSeriesPrinting() {
-        // Prepare input for Scanner
+    public void testNumberSequencePositive() {
+        provideInput("5\n");
         E64ForLoop.main(new String[]{});
-        String userInput = "5"; // Sample input
-        int x = Integer.parseInt(userInput);
-        InputStream inputStream = new ByteArrayInputStream(userInput.getBytes());
-        System.setIn(inputStream);
-
-        // Redirect standard output to capture printed output
-        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-        System.setOut(new PrintStream(outputStream));
-
-        // Call the main method
-        E64ForLoop.main(null);
-// Define the expected output based on the given input
-        StringBuilder printedOutput = new StringBuilder();
-
-
-
-        for (int i = x; i > x*2; i--) {
-            printedOutput.append(i).append(" ");
-        }
-        // Define the expected output based on the given input
-        String expectedOutput = "0 1 2 3 4 5 6 7 8 9";
-        // Verify the printed output matches the expected output
-        assertEquals(expectedOutput.toString().trim(), printedOutput);
-
-
-
-        // Verify the printed output matches the expected output
-        //assertEquals(expectedOutput, printedOutput);
+        String expectedOutput = "Int:0 1 2 3 4 5 6 7 8 9";
+        assertEquals(expectedOutput, outContent.toString().trim());
     }
+
+    @Test
+    public void testNumberSequenceLargePositive() {
+        provideInput("8\n");
+        E64ForLoop.main(new String[]{});
+        String expectedOutput = "Int:0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15";
+        assertEquals(expectedOutput, outContent.toString().trim());
+    }
+
+    @Test
+    public void testNumberSequenceNegative() {
+        provideInput("-5\n");
+        E64ForLoop.main(new String[]{});
+        assertEquals("Int:", outContent.toString().trim());
+    }
+
+    // Additional tests can be added here to cover more scenarios
 }
