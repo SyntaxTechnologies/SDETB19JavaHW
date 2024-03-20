@@ -1,10 +1,12 @@
 **For you to do:**
 
-Create an array of integers that will store 5 elements taken from a user
+Create an array of integers that will store 5 elements 
+taken from a user
 
 Don't print any prompt message for the user
 
-Then print out all the elements you have created in the first loop in reverse order.
+Then print out all the elements you have created
+in the first loop in reverse order.
 
 **Example:**
 

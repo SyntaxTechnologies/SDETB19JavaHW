@@ -6,7 +6,8 @@ Given the following inputs:
 int x;
 ```
 
-Write a for loop that will print out a series of numbers starting at one less than x and ending at 0.
+Write a for loop that will print out a series of numbers
+starting at one less than x and ending at 0.
 
 **Output:**
 

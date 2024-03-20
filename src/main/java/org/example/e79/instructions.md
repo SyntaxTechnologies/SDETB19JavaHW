@@ -1,6 +1,7 @@
 **For you to do:**
 
-Write a program that calculates the sum of elements from each row in a 2D array and adds them into array of integers
+Write a program that calculates the sum of elements from each row
+in a 2D array and adds them into array of integers
 
 For example, if we run rowSums for the following 2D array:
 

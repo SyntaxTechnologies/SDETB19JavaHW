@@ -4,7 +4,8 @@ Create an int array of integers with a size of 5 and input values with Scanner.
 
 Don't print prompt questions for a user.
 
-Using loop print out each element of the array that should look like the output below
+Using loop print out each element of the array that should look like the output
+below
 
 **Example:**
 

@@ -1,6 +1,7 @@
 **For you to do:**
 
-Write a program that prints the count down from 10 up to 1 and then says "Happy New Year!".
+Write a program that prints the count down
+from 10 up to 1 and then says "Happy New Year!".
 
 **Output:**
 

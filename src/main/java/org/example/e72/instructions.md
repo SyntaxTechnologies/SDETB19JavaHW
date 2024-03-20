@@ -2,9 +2,11 @@
 
 Write a program that creates a String array with size 7.
 
-Ask the user to input Days of a week beginning with Sunday using Scanner class.
+Ask the user to input Days of a week
+beginning with Sunday using Scanner class.
 
-Add these inputs to your array and then print all values from that array
+Add these inputs to your array and then print all values
+from that array
 
 Example:
 

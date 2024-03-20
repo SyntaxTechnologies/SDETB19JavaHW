@@ -1,6 +1,7 @@
 **For you to do:**
 
-Write a program to double the values of every element in the array and print it out.
+Write a program to double the values of every element 
+in the array and print it out.
 
 **Example Output:**
 

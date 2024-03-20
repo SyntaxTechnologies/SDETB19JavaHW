@@ -1,6 +1,7 @@
 **For you to do:**
 
-Write a program that uses for loop to prints multiplication of number 3 from 1 to 10
+Write a program that uses for loop to prints multiplication
+of number 3 from 1 to 10
 
 **Output:**
 

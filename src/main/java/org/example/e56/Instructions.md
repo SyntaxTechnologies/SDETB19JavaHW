@@ -1,6 +1,7 @@
 **For you to do:**
 
-Create a for loop that prints out even numbers from 2 to 14 using if condition
+Create a for loop that prints out even numbers from 2 to 14 
+using if condition
 Must include the number 14 in the output
 
 
